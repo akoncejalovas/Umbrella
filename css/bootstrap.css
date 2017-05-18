@@ -235,8 +235,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         color: #000!important;
         text-shadow: none!important;
         background: transparent!important;
@@ -1402,9 +1402,9 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1em;
 }
 
 a {
@@ -1412,11 +1412,6 @@ a {
     text-decoration: none
 }
 
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
 
 a:focus {
     outline: 5px auto -webkit-focus-ring-color;
